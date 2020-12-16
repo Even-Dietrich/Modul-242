@@ -2,7 +2,7 @@
 
 ## IoT-Kit
 
-### Team
+## Team
 - Jason Bräker
 - Even Dietrich
 - Alex Zaugg
