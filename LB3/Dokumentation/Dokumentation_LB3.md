@@ -14,12 +14,13 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 3 [Unsere Arbeitsaufteilung](#Arbeitsaufteilung)<br>
 4 [Unsere Lösung](#Lösung)<br>
 &nbsp;4.1 [Netzwerkplan](#Netzwerkplan)<br>
-5 [Testprotokolle](#Testprotokolle)<br>
-6 [Persönlicher Wissensstand und Reflexion](#Wissensstand)<br>
-&nbsp;6.1 [Adam](#Adam)<br>
-&nbsp;6.2 [Alex](#Alex)<br>
-&nbsp;6.3 [Even](#Even)<br>
-&nbsp;6.4 [Jason](#Jason)<br>
+5 [Konfiguration](#Konfiguration)<br>
+6 [Testprotokolle](#Testprotokolle)<br>
+7 [Persönlicher Wissensstand und Reflexion](#Wissensstand)<br>
+&nbsp;7.1 [Adam](#Adam)<br>
+&nbsp;7.2 [Alex](#Alex)<br>
+&nbsp;7.3 [Even](#Even)<br>
+&nbsp;7.4 [Jason](#Jason)<br>
 
 ## 1 Allgemeine Bewetungskriterien <a name="Allgemein"></a>
 ### 1.1 K1: Umgebung auf eigenem Notebook eingerichtet und voll funktionsfähig <a name="K1"></a>
@@ -64,7 +65,7 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 # 2 Unsere Idee: <a name="Idee"></a>
 Unser System besteht aus folgenden Teile:
 - IoTKit
-- Gateway/MQTT Broker
+- Raspberry Pi,,Gateway/MQTT Broker
 - Cloud/Note-Red
 # 3 Arbeitsaufteilung: <a name="Arbeitsaufteilung"></a> 
 Wir arbeiten alle gemeinsamm an der Dokumentation und individuell arbeiten wir an folgenden Bestandteile:
@@ -74,11 +75,18 @@ Wir arbeiten alle gemeinsamm an der Dokumentation und individuell arbeiten wir a
 - Jason, Cloud, Note-Red
 
 # 4 Unsere Lösung: <a name="Lösung"></a>
-
+ 
 ## 4.1 Netzwerkplan: <a name="Netzwerkplan"></a>
-## 5 Testprotokolle: <a name="Testprotokolle"></a><br>
-# 6 Persönlicher Wissensstand und Reflexion: <a name="Wissensstand"></a><br>
-## 6.1 Adam: <a name="Adam"></a><br>
-## 6.2 Alex: <a name="Alex"></a><br>
-## 6.3 Even: <a name="Even"></a><br>
-## 6.4 Jason: <a name="Jason"></a><br>
+## 4.2 IoKit Konfiguration: <a name="IoKit"></a>
+## 4.3 Gateway/ MQTT Broker: <a name="Gateway"></a>
+## 4.4 Cloud: <a name="Cloud"></a>
+
+# 5 Konfiguration: <a name="Konfiguration"></a>
+
+## 6 Testprotokolle: <a name="Testprotokolle"></a><br>
+
+# 7 Persönlicher Wissensstand und Reflexion: <a name="Wissensstand"></a><br>
+## 7.1 Adam: <a name="Adam"></a><br>
+## 7.2 Alex: <a name="Alex"></a><br>
+## 7.3 Even: <a name="Even"></a><br>
+## 7.4 Jason: <a name="Jason"></a><br>
