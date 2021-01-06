@@ -11,6 +11,16 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 &nbsp;1.5 [K5: (Cloud) Dienst](#K5)<br>
 &nbsp;1.6 [K6: Zusätzliche Bewertungspunkte](#K6)<br>
 2 [Unsere Idee](#Idee)<br>
+3 [Unsere Arbeitsaufteilung](#Arbeitsaufteilung)<br>
+4 [Unsere Lösung](#Lösung)<br>
+&nbsp;4.1 [Netzwerkplan](#Netzwerkplan)<br>
+5 [Testprotokolle](#Testprotokolle)<br>
+6 [Persönlicher Wissensstand und Reflexion](#Wissensstand)<br>
+&nbsp;6.1 [Adam](#Adam)<br>
+&nbsp;6.2 [Alex](#Alex)<br>
+&nbsp;6.3 [Even](#Even)<br>
+&nbsp;6.4 [Jason](#Jason)<br>
+
 ## 1 Allgemeine Bewetungskriterien <a name="Allgemein"></a>
 ### 1.1 K1: Umgebung auf eigenem Notebook eingerichtet und voll funktionsfähig <a name="K1"></a>
 -Account auf os.mbed.com erstellt
@@ -47,3 +57,13 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 -Reflexion
 
 # 2 Unsere Idee: <a name="Idee"></a>
+# 3 Arbeitsaufteilung: <a name="Arbeitsaufteilung"></a> 
+
+# 4 Unsere Lösung: <a name="Lösung"></a>
+## 4.1 Netzwerkplan: <a name="Netzwerkplan"></a>
+## 5 Testprotokolle: <a name="Testprotokolle"></a><br>
+# 6 Persönlicher Wissensstand und Reflexion: <a name="Wissensstand"></a><br>
+## 6.1 Adam: <a name="Adam"></a><br>
+## 6.2 Alex: <a name="Alex"></a><br>
+## 6.3 Even: <a name="Even"></a><br>
+## 6.4 Jason: <a name="Jason"></a><br>
