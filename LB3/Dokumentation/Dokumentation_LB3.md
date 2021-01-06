@@ -62,11 +62,16 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 - Reflexion
 
 # 2 Unsere Idee: <a name="Idee"></a>
-# 3 Arbeitsaufteilung: <a name="Arbeitsaufteilung"></a> 
 Unser System besteht aus folgenden Teile:
 - IoTKit
 - Gateway/MQTT Broker
-- Cloud 
+- Cloud/Note-Red
+# 3 Arbeitsaufteilung: <a name="Arbeitsaufteilung"></a> 
+Wir arbeiten alle gemeinsamm an der Dokumentation und individuell arbeiten wir an folgenden Bestandteile:
+- Even, IoKit 
+- Adam, IoKit
+- Alex, Gateway, MQTT Broker
+- Jason, Cloud, Note-Red
 
 # 4 Unsere Lösung: <a name="Lösung"></a>
 
