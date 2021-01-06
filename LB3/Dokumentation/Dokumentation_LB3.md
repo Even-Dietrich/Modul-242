@@ -14,7 +14,7 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 3 [Unsere Arbeitsaufteilung](#Arbeitsaufteilung)<br>
 4 [Unsere Lösung](#Lösung)<br>
 &nbsp;4.1 [Netzwerkplan](#Netzwerkplan)<br>
-5 [Konfiguration](#Konfiguration)<br>
+5 [Konfiguration/Installation](#Konfiguration)<br>
 &nbsp;5.1 [IoKit](#IoKit)<br>
 &nbsp;5.2 [Gateway](#Gateway)<br>
 &nbsp;5.3 [Cloud](#Cloud)<br>
@@ -82,7 +82,7 @@ Wir arbeiten alle gemeinsamm an der Dokumentation und individuell arbeiten wir a
 ## 4.1 Netzwerkplan: <a name="Netzwerkplan"></a>
 
 
-# 5 Konfiguration: <a name="Konfiguration"></a>
+# 5 Konfiguration/Installation: <a name="Konfiguration"></a>
 ## 5.1 IoKit Konfiguration: <a name="IoKit"></a>
 ## 5.2 Gateway/ MQTT Broker: <a name="Gateway"></a>
 ## 5.3 Cloud: <a name="Cloud"></a>
