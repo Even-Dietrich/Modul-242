@@ -23,28 +23,33 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 
 ## 1 Allgemeine Bewetungskriterien <a name="Allgemein"></a>
 ### 1.1 K1: Umgebung auf eigenem Notebook eingerichtet und voll funktionsfähig <a name="K1"></a>
+
 -Account auf os.mbed.com erstellt
 -Serial Driver installiert
 -Terminal Programm installiert
 
 ### 1.2 K2: Eigene Lernumgebung ist eingerichtet <a name="K2"></a>
+
 -Dokumentation vorhanden
 -Persönlicher Wissenstand in Bezug auf die wichtigsten Themen ist dokumentiert (IoT, Sensoren, Aktoren, Service)
 -Wichtige Lernschritte sind dokumentiert
 -Anhand der Dokumentation können Dritte das Projekt nachbauen
 
 ### 1.3 K3: IoTKit <a name="K3"></a>
+
 -Beispiel Programm verwendet
 -Beispiel Programm geringfügig abgeän-dert, z.B. nur URL 
 -Beispiel Programm erweitert, z.B. mehr Sensordaten senden oder andere Daten.
 
 ### 1.4 K4: Gateway / Edge <a name="K4"></a>
+
 -Eigenen Gateway/Edge aufgesetzt (Rasp-berry Pi, VMs etc.)
 -Gateway Dienst installiert, z.B. MQTT Bro-ker mosquitto
 -Zusätzlichen Dienst, für Workflow Abhand-lung, z.B. Node-RED installiert
 -Weiteren Gateway / Protokoll Dienst instal-liert und funktionsfähig
 
 ### 1.5 K5: (Cloud) Dienst <a name="K5"></a>
+
 -(Cloud) Dienst aus den Beispielen verwen-det
 -Neuen, welcher nicht in den Beispielen vorkommt, Dienst verwendet
 -Eigenen (Cloud) Dienst implementiert
