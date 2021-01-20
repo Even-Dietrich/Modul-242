@@ -105,19 +105,19 @@ sudo raspi-config <br>
 ```
 curl -L https://install.pivpn.io | bash <br>
 ```
-openssh wählen
+- openssh wählen<br>
 ![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/chooseVPN.png)<br>
-Portwählen (wir nehmen Standart)
+- Portwählen (wir nehmen Standart)<br>
 ![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/chooseVPN.png)<br>
-DNS Server wählen
+- DNS Server wählen<br>
 ![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/chooseVPN.png)<br>
-IP Wählen
+- IP Wählen<br>
 ![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/chooseVPN.png)<br>
-Router portforwarding einstellen
+- Router portforwarding einstellen<br>
 ![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/chooseVPN.png)<br>
-pivpn -a //neuer Benutzer einrichten
+- pivpn -a //neuer Benutzer einrichten<br>
 ![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/chooseVPN.png)<br>
-Zertifikat vom Raspi hollen
+- Zertifikat vom Raspi hollen<br>
 ```
 scp /home/pie/ovpns/testuser2.ovpn username@destination:/file/path (mit Passwort bestätigen)
 ```
