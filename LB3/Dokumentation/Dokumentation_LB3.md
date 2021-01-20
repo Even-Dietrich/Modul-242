@@ -153,9 +153,14 @@ sudo apt-get install mosquitto mosquitto-clients
 ```
 sudo mosquitto_passwd -c passwordfile testuser <br>
 ```
-- Danach muss im IOT-Kit der Hostname angepasst werden! Nämlich muss dort die IP-Adresse des Ngroks stehen.
+![client](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/client.png)
+
+- Danach muss im IOT-Kit der Hostname angepasst werden! Nämlich muss dort die IP-Adresse des Mosquitto stehen.
+![compiler](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/compiler.png)
+
 - Dann auf erneut Compilen und aufs IOT-Kit installieren
 - Auf Raspi bekommt man nun die Infos:
+![info](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/info.png)
 
 ### 6.2.2 Wireguard: <a name="Wireguard"></a>
 - Install Wireguard
@@ -166,6 +171,8 @@ sudo apt install wireguard -y
 ```
 Sudo nano /etc/wireguard/wg0.conf
 ```
+![wireguard](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/wireguard.png)
+
 - System enable 
 ```
 sudo systemctl enable wg-quick@wg0
