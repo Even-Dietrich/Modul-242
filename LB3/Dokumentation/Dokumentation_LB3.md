@@ -87,6 +87,17 @@ Wir arbeiten alle gemeinsamm an der Dokumentation und individuell arbeiten wir a
 ## 5.1 IoKit Konfiguration: <a name="IoKit"></a>
 ## 5.2 Gateway/ MQTT Broker: <a name="Gateway"></a>
 ### 5.2.1 VPN: <a name="VPN"></a>
+Konfiguration des VPN auf dem Raspberry Pi.
+
+Raspi updaten:
+sudo apt-get update
+sudo apt-get upgrade
+Raspi konfigurieren
+sudo raspi-config -> Hostnamen und Netzwerk anpassen
+PiVPN installieren
+curl -L https://install.pivpn.io | bash
+
+![MC-Connecten](https://github.com/Even-Dietrich/Modul300/blob/master/LB3/img/MC-Connecten.png)
 ## 5.3 Cloud: <a name="Cloud"></a>
 
 ## 6 Testprotokolle: <a name="Testprotokolle"></a><br>
