@@ -12,7 +12,7 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 &nbsp;1.6 [K6: Zusätzliche Bewertungspunkte](#K6)<br>
 2 [Unsere Idee](#Idee)<br>
 3 [Unsere Arbeitsaufteilung](#Arbeitsaufteilung)<br>
-4 [Unsere Lösung](#DokumenationProtokoll)<br>
+4 [Dokumenation Protokolle](#DokumenationProtokoll)<br>
 &nbsp;4.1 [Netzwerkplan](#MQTT)<br>
 5 [Unsere Lösung](#Lösung)<br>
 &nbsp;5.1 [Netzwerkplan](#Netzwerkplan)<br>
