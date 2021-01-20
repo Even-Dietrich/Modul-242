@@ -12,19 +12,21 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 &nbsp;1.6 [K6: Zusätzliche Bewertungspunkte](#K6)<br>
 2 [Unsere Idee](#Idee)<br>
 3 [Unsere Arbeitsaufteilung](#Arbeitsaufteilung)<br>
-4 [Unsere Lösung](#Lösung)<br>
-&nbsp;4.1 [Netzwerkplan](#Netzwerkplan)<br>
-5 [Konfiguration/Installation](#Konfiguration)<br>
-&nbsp;5.1 [IoKit](#IoKit)<br>
-&nbsp;5.2 [Gateway](#Gateway)<br>
-&nbsp;5.2.1 [VPN](#Gateway)<br>
-&nbsp;5.3 [Cloud](#Cloud)<br>
-6 [Testprotokolle](#Testprotokolle)<br>
-7 [Persönlicher Wissensstand und Reflexion](#Wissensstand)<br>
-&nbsp;7.1 [Adam](#Adam)<br>
-&nbsp;7.2 [Alex](#Alex)<br>
-&nbsp;7.3 [Even](#Even)<br>
-&nbsp;7.4 [Jason](#Jason)<br>
+4 [Unsere Lösung](#DokumenationProtokoll)<br>
+&nbsp;4.1 [Netzwerkplan](#MQTT)<br>
+5 [Unsere Lösung](#Lösung)<br>
+&nbsp;5.1 [Netzwerkplan](#Netzwerkplan)<br>
+6 [Konfiguration/Installation](#Konfiguration)<br>
+&nbsp;6.1 [IoKit](#IoKit)<br>
+&nbsp;6.2 [Gateway](#Gateway)<br>
+&nbsp;6.2.1 [VPN](#Gateway)<br>
+&nbsp;6.3 [Cloud](#Cloud)<br>
+7 [Testprotokolle](#Testprotokolle)<br>
+8 [Persönlicher Wissensstand und Reflexion](#Wissensstand)<br>
+&nbsp;8.1 [Adam](#Adam)<br>
+&nbsp;8.2 [Alex](#Alex)<br>
+&nbsp;8.3 [Even](#Even)<br>
+&nbsp;8.4 [Jason](#Jason)<br>
 
 ## 1 Allgemeine Bewetungskriterien <a name="Allgemein"></a>
 ### 1.1 K1: Umgebung auf eigenem Notebook eingerichtet und voll funktionsfähig <a name="K1"></a>
@@ -77,16 +79,37 @@ Wir arbeiten alle gemeinsamm an der Dokumentation und individuell arbeiten wir a
 - Adam, IoKit
 - Alex, Gateway, MQTT Broker
 - Jason, Cloud, Note-Red
+# 4 Dokumenation Protokolle: <a name="DokumenationProtokoll"></a>
+## 4.1 MQTT (Message Queue Telemetry Transport): <a name="MQTT"></a>
 
-# 4 Unsere Lösung: <a name="Lösung"></a>
+Bei MQTT handelt es sich um ein Nachrichten Protokoll, das im Bereich der Machine to Machine Kommunikation genutzt wird. Dazu gehört vor allem das übertragen von Messdaten in Form von Nachrichten auch bei hoher Verzögerung oder bei einer niedrigen Bandbreite. Dazu verwendet das Protokoll die Ports 1883 und 8883 und kann über das TLS-Protokoll verschlüsselt werden.
+
+Folgende Geräte können MQTT verwenden:
+- Sensoren/Aktoren
+- Mobiltelefone
+- System in Fahrzeuge
+- Laptops
+
+Wie funktioniert MQTT?
+Die Kommunikation erfolgt über eine Publish-Subscribe-Kommunikation. Die Kommunikation besteht dabei immer aus zwei Teilnehmer, den Broker und den Clients. Dabei hat der Client die Aufgabe die Kommunikation mit den Nachrichten publish und subscriben zu gewährleisten. Der Broker ist dazu da, um die Nachrichten zu verwalten und zu verteilen. Die ganzen Nachrichten funktionieren über sogenannte Topics. 
  
-## 4.1 Netzwerkplan: <a name="Netzwerkplan"></a>
+MQTT Topics
+Ein Topic ist ein Stringe, der eine Art Betreff der jeweiligen Nachricht darstellt. Diese Topics müssen danach vom Client abonniert werden damit dieser die Messdaten sehen kann. Sollte man die Messdaten nicht mehr gebrauchen kann man ganz einfach das Topic wieder deabonnieren und schon sieht man die Daten nicht mehr. 
+
+Vorteile von MQTT:
+- Sensor und Endgerät müssen sich nicht kennen. Keine IP-Adresse oder MAC-Adresse wird benötigt. 
+- Publish und Subscribe sind unabhängig voneinander. Können separat ausgeführt werden. 
+-	Asynchrone ausführen, Funktionalität der Computer wird somit nicht gestört.
+
+# 5 Unsere Lösung: <a name="Lösung"></a>
+
+## 5.1 Netzwerkplan: <a name="Netzwerkplan"></a>
 
 
-# 5 Konfiguration/Installation: <a name="Konfiguration"></a>
-## 5.1 IoKit Konfiguration: <a name="IoKit"></a>
-## 5.2 Gateway/ MQTT Broker: <a name="Gateway"></a>
-### 5.2.1 VPN: <a name="VPN"></a>
+# 6 Konfiguration/Installation: <a name="Konfiguration"></a>
+## 6.1 IoKit Konfiguration: <a name="IoKit"></a>
+## 6.2 Gateway/ MQTT Broker: <a name="Gateway"></a>
+### 6.2.1 VPN: <a name="VPN"></a>
 Konfiguration des VPN auf dem Raspberry Pi.
 
 - Raspi updaten: <br>
@@ -122,7 +145,7 @@ curl -L https://install.pivpn.io | bash <br>
 scp /home/pie/ovpns/testuser2.ovpn username@destination:/file/path (mit Passwort bestätigen)
 ```
 
-## 5.3 Cloud: <a name="Cloud"></a> 
+## 6.3 Cloud: <a name="Cloud"></a> 
 Als Cloud-Dienst haben wir Node-Red auf der TBZ-Cloud aufgesetzt. Das aufsetzen und einrichten war sehr einfach.
 
 Ich konnte ganz einfach den Docker Befehl für Node-Red auf der VM absetzen:
@@ -138,16 +161,16 @@ http://10.1.31.3:1880/
 ![Node-Red](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/node-red.png)
 
 
-## 6 Testprotokolle: <a name="Testprotokolle"></a><br>
+## 7 Testprotokolle: <a name="Testprotokolle"></a><br>
 
-# 7 Persönlicher Wissensstand und Reflexion: <a name="Wissensstand"></a><br>
-## 7.1 Adam <a name="Adam"></a><br>
+# 8 Persönlicher Wissensstand und Reflexion: <a name="Wissensstand"></a><br>
+## 8.1 Adam <a name="Adam"></a><br>
 
-## 7.2 Alex <a name="Alex"></a><br>
+## 8.2 Alex <a name="Alex"></a><br>
 
-## 7.3 Even <a name="Even"></a><br>
+## 8.3 Even <a name="Even"></a><br>
 
-## 7.4 Jason <a name="Jason"></a><br>
+## 8.4 Jason <a name="Jason"></a><br>
 ### Vorwissen:
 Bei IoT-Geräten habe ich noch praktisch kein Vorwissen und werde mir alles in den nächsten 3-4 Wochen aneigenen und dokumentieren. 
 ### 06.01.21
