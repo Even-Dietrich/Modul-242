@@ -120,6 +120,9 @@ Durch die einfach Installation und die gute Dokumentation wurde Mosquitto zu ein
 
 # 6 Konfiguration/Installation: <a name="Konfiguration"></a>
 ## 6.1 IoKit Konfiguration: <a name="IoKit"></a>
+- IoKit an Computer anschliessen 
+- mbed Compiler öffnen <a href="https://ide.mbed.com/compiler">TS3 Client, </a> 
+
 ## 6.2 Gateway/ MQTT Broker: <a name="Gateway"></a>
 ### 6.2.1 VPN: <a name="VPN"></a>
 Konfiguration des VPN auf dem Raspberry Pi.
