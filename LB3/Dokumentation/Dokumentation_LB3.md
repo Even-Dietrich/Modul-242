@@ -108,15 +108,15 @@ curl -L https://install.pivpn.io | bash <br>
 - openssh wählen<br>
 ![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/chooseVPN.png)<br>
 - Portwählen (wir nehmen Standart)<br>
-![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/Port.png)<br>
+![port](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/Port.png)<br>
 - DNS Server wählen<br>
-![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/DNS.png)<br>
+![dns](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/DNS.png)<br>
 - IP Wählen<br>
-![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/IP.png)<br>
+![ip](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/IP.png)<br>
 - Router portforwarding einstellen<br>
-![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/Portforwarding.png)<br>
+![portforwarding](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/Portforwarding.png)<br>
 - pivpn -a //neuer Benutzer einrichten<br>
-![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/Usereinrichten.png)<br>
+![adduser](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/Usereinrichten.png)<br>
 - Zertifikat vom Raspi hollen<br>
 ```
 scp /home/pie/ovpns/testuser2.ovpn username@destination:/file/path (mit Passwort bestätigen)
