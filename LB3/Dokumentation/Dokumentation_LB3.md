@@ -21,7 +21,9 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 6 [Konfiguration/Installation](#Konfiguration)<br>
 &nbsp;6.1 [IoKit](#IoKit)<br>
 &nbsp;6.2 [Gateway](#Gateway)<br>
-&nbsp;6.2.1 [VPN](#Gateway)<br>
+&nbsp;6.2.1 [Mosquittoint](#Gateway)<br>
+&nbsp;6.2.2 [Wireguard](#Gateway)<br>
+&nbsp;6.2.3 [VPN](#Gateway)<br>
 &nbsp;6.3 [Cloud](#Cloud)<br>
 7 [Testprotokolle](#Testprotokolle)<br>
 8 [Persönlicher Wissensstand und Reflexion](#Wissensstand)<br>
@@ -126,7 +128,52 @@ Durch die einfach Installation und die gute Dokumentation wurde Mosquitto zu ein
 - mbed_app-json= SSID anpassen und Passwort
 - Compile und Datei auf IoTKit speichern 
 ## 6.2 Gateway/ MQTT Broker: <a name="Gateway"></a>
-### 6.2.1 VPN: <a name="VPN"></a>
+### 6.2.1 Mosquitto: <a name="Mosquittoint"></a>
+- Install Mosquitto: 
+```
+Sudo apt-get update
+```
+```
+Sudo apt-get upgrade
+```
+```
+sudo apt-get dist-upgrade
+```
+```
+wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
+```
+- Konfiguration Clients
+```
+sudo apt-get install mosquitto mosquitto-clients python-mosquitto
+```
+```
+sudo apt-get install mosquitto mosquitto-clients
+```
+```
+sudo mosquitto_passwd -c passwordfile testuser <br>
+```
+- Danach muss im IOT-Kit der Hostname angepasst werden! Nämlich muss dort die IP-Adresse des Ngroks stehen.
+- Dann auf erneut Compilen und aufs IOT-Kit installieren
+- Auf Raspi bekommt man nun die Infos:
+
+### 6.2.2 Wireguard: <a name="Wireguard"></a>
+- Install Wireguard
+```
+sudo apt install wireguard -y
+```
+- Folgendes Dokument bearbeiten (siehe Screenshot)
+```
+Sudo nano /etc/wireguard/wg0.conf
+```
+- System enable 
+```
+sudo systemctl enable wg-quick@wg0
+```
+- System neustarten
+```
+sudo reboot now
+```
+### 6.2.3 VPN: <a name="VPN"></a>
 Konfiguration des VPN auf dem Raspberry Pi.
 
 - Raspi updaten: <br>
