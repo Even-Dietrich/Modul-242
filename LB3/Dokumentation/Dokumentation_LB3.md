@@ -123,7 +123,9 @@ Durch die einfach Installation und die gute Dokumentation wurde Mosquitto zu ein
 - IoKit an Computer anschliessen 
 - mbed Compiler öffnen <a href="https://ide.mbed.com/compiler">mbed Compiler, </a> 
 - Import <a href="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/Dokumentation/files/MQTTPublish.K64F.bin">MQTTPublish.K64F.bin, </a> 
-
+- Change main.cpp with this file: <a href="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/Dokumentation/files/main.cpp">main.cpp, </a> 
+- mbed_app-json= SSID anpassen und Passwort
+- Compile und Datei auf IoTKit speichern 
 ## 6.2 Gateway/ MQTT Broker: <a name="Gateway"></a>
 ### 6.2.1 VPN: <a name="VPN"></a>
 Konfiguration des VPN auf dem Raspberry Pi.
