@@ -122,7 +122,21 @@ curl -L https://install.pivpn.io | bash <br>
 scp /home/pie/ovpns/testuser2.ovpn username@destination:/file/path (mit Passwort bestätigen)
 ```
 
-## 5.3 Cloud: <a name="Cloud"></a>
+## 5.3 Cloud: <a name="Cloud"></a> 
+Als Cloud-Dienst haben wir Node-Red auf der TBZ-Cloud aufgesetzt. Das aufsetzen und einrichten war sehr einfach.
+
+Ich konnte ganz einfach den Docker Befehl für Node-Red auf der VM absetzen:
+
+```docker
+    docker run -it -p 1880:1880 -v node_red_data:/data --name mynodered nodered/node-red
+```
+
+Danach konnte man auf das Webinterface zugreifen:
+
+http://10.1.31.3:1880/
+
+![Node-Red](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/node-red.png)
+
 
 ## 6 Testprotokolle: <a name="Testprotokolle"></a><br>
 
