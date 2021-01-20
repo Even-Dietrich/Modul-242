@@ -118,7 +118,8 @@ Durch die einfach Installation und die gute Dokumentation wurde Mosquitto zu ein
 # 5 Unsere Lösung: <a name="Lösung"></a>
 
 ## 5.1 Netzwerkplan: <a name="Netzwerkplan"></a>
-![Netzwerkplan](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/Netzwerkplan.jpg)<br>
+<img src="https://github.com/Even-Dietrich/Modul-242/tree/main/LB3/img/Netzwerkplan.png" alt="Netzwerkplan">
+
 
 # 6 Konfiguration/Installation: <a name="Konfiguration"></a>
 ## 6.1 IoKit Konfiguration: <a name="IoKit"></a>
@@ -200,7 +201,7 @@ Sudo /.ngrok authtoken PRIVATETOKEN-KOPIEREN
 ![ngroktoken](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/NgrokToken.png)
 
 - Im Compiler folgendes abändern
-![ngrokcompiler](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/ngrokcompiler.png)
+![ngrokcompiler](https://github.com/Modul-242/blob/master/LB3/img/ngrokcompiler.png)
 
 ### 6.2.4 VPN: <a name="VPN"></a>
 Konfiguration des VPN auf dem Raspberry Pi.
@@ -267,8 +268,9 @@ Im Modul 126 hatten wir schon mit IOT-Geräten zu tun, somit hatte ich schon ein
 Ich musste den VPN einrichten dafür habe ich den Openvpn auf dem Raspberry installiert und konfiguriert.
 Siehe 6.2.1 [VPN](#Gateway)<br>
 Wichtige Befehle die ich neu gelernt habe (nach der Installation):
-```pivpn -add
-```
+```pivpn -a``` Erstellt ein neues VPN Profil
+```pivpn -c``` Zeigt die aktuellen Verbindungen
+
 Nach der Installation und dem Testen des VPN habe ich auf dem Raspberry auch noch den MQTT Broker installiert und Konfiguriert...
 
 ### 20.01.2021
@@ -279,8 +281,7 @@ Um den Traffic bzw. die Information des IOT-Kit auf dem Raspi sehen kann muss ma
 ```mosquitto_sub -h 192.168.1.10 -t iotkit/#```
 <br>
 
-![Raspi](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/auslesen_von_informationen_raspi.png)
-
+![Raspi](https://github.com/Modul-242/master/LB3/img/auslesen_von_informationen_raspi.png?raw=true)
 
 ## 8.3 Even <a name="Even"></a><br>
 ### Vorwissen:
