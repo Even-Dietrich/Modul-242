@@ -23,7 +23,8 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 &nbsp;6.2 [Gateway](#Gateway)<br>
 &nbsp;6.2.1 [Mosquittoint](#Gateway)<br>
 &nbsp;6.2.2 [Wireguard](#Gateway)<br>
-&nbsp;6.2.3 [VPN](#Gateway)<br>
+&nbsp;6.2.3 [Ngrok](#Ngrok)<br>
+&nbsp;6.2.4 [VPN](#Gateway)<br>
 &nbsp;6.3 [Cloud](#Cloud)<br>
 7 [Testprotokolle](#Testprotokolle)<br>
 8 [Persönlicher Wissensstand und Reflexion](#Wissensstand)<br>
@@ -173,7 +174,25 @@ sudo systemctl enable wg-quick@wg0
 ```
 sudo reboot now
 ```
-### 6.2.3 VPN: <a name="VPN"></a>
+### 6.2.3 Ngrok: <a name="Ngrok"></a>
+- Account auf ngrok.com erstellen damit den Privatentoken bekommt
+- Get Zip Token
+```
+Cd /home/pi
+```
+```
+Sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip
+```
+```
+Sudo unzip ngrok-stable-linux-386.zip
+```
+```
+Sudo /.ngrok authtoken PRIVATETOKEN-KOPIEREN
+```
+- /.ngrok tcp 1883
+- Im Compiler folgendes abändern
+
+### 6.2.4 VPN: <a name="VPN"></a>
 Konfiguration des VPN auf dem Raspberry Pi.
 
 - Raspi updaten: <br>
