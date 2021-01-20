@@ -118,7 +118,7 @@ Durch die einfach Installation und die gute Dokumentation wurde Mosquitto zu ein
 # 5 Unsere Lösung: <a name="Lösung"></a>
 
 ## 5.1 Netzwerkplan: <a name="Netzwerkplan"></a>
-<img src="https://github.com/Even-Dietrich/Modul-242/tree/main/LB3/img/Netzwerkplan.png" alt="Netzwerkplan">
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/Netzwerkplan.jpg" alt="Netzwerkplan">
 
 
 # 6 Konfiguration/Installation: <a name="Konfiguration"></a>
@@ -154,10 +154,9 @@ sudo apt-get install mosquitto mosquitto-clients
 ```
 sudo mosquitto_passwd -c passwordfile testuser <br>
 ```
-![client](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/client.png)
-
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/client.png" alt="Client">
 - Danach muss im IOT-Kit der Hostname angepasst werden! Nämlich muss dort die IP-Adresse des Mosquitto stehen.
-![compiler](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/compiler.png)
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/compiler.jpg" alt="Compiler">
 
 - Dann auf erneut Compilen und aufs IOT-Kit installieren
 - Auf Raspi bekommt man nun die Infos:
@@ -172,7 +171,7 @@ sudo apt install wireguard -y
 ```
 Sudo nano /etc/wireguard/wg0.conf
 ```
-![wireguard](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/wireguard.png)
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/wireguard.png" alt="Wireguard">
 
 - System enable 
 ```
@@ -183,8 +182,7 @@ sudo systemctl enable wg-quick@wg0
 sudo reboot now
 ```
 ### 6.2.3 Ngrok: <a name="Ngrok"></a>
-- Account auf ngrok.com erstellen damit den Privatentoken bekommt
-- Get Zip Token
+- Account auf <a href="ngrok.com">Ngrok</a> erstellen damit den Privatentoken bekommt
 ```
 Cd /home/pi
 ```
@@ -198,10 +196,10 @@ Sudo unzip ngrok-stable-linux-386.zip
 Sudo /.ngrok authtoken PRIVATETOKEN-KOPIEREN
 ```
 - /.ngrok tcp 1883
-![ngroktoken](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/NgrokToken.png)
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/NgrokToken.png" alt="NgrokToken">
 
 - Im Compiler folgendes abändern
-![ngrokcompiler](https://github.com/Modul-242/blob/master/LB3/img/ngrokcompiler.png)
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/ngrokcompiler.png" alt="Ngrok">
 
 ### 6.2.4 VPN: <a name="VPN"></a>
 Konfiguration des VPN auf dem Raspberry Pi.
@@ -223,18 +221,18 @@ sudo raspi-config <br>
 curl -L https://install.pivpn.io | bash <br>
 ```
 - openssh wählen<br>
-![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/chooseVPN.png) <br>
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/chooseVPN.png" alt="VPN Wählen"><br>
 - Portwählen (wir nehmen Standart)<br>
-![port](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/Port.png)<br>
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/Port.png.png" alt="Port Wählen"><br>
 - DNS Server wählen<br>
-![dns](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/DNS.png)<br>
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/DNS.png" alt="DNS Wählen"><br>
 - IP Wählen<br>
-![ip](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/IP.png)<br>
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/IP.png" alt="IP Wählen"><br>
 - Router portforwarding einstellen<br>
-![portforwarding](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/Portforwarding.png)<br>
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/Portforwarding.png" alt="Portforwarding einstellen"><br>
 - pivpn -a //neuer Benutzer einrichten<br>
-![adduser](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/Usereinrichten.png)<br>
-- Zertifikat vom Raspi hollen<br>
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/Usereinrichten.png" alt="User erstellen"><br>
+- Zertifikat vom Raspi auf die Lokale Maschiene kopieren<br>
 ```
 scp /home/pie/ovpns/testuser2.ovpn username@destination:/file/path (mit Passwort bestätigen)
 ```
@@ -252,7 +250,7 @@ Danach konnte man auf das Webinterface zugreifen:
 
 http://10.1.31.3:1880/
 
-![Node-Red](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/node-red.png)
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/node-red.png" alt="VPN Wählen">
 
 
 ## 7 Testprotokolle: <a name="Testprotokolle"></a><br>
@@ -262,16 +260,16 @@ http://10.1.31.3:1880/
 
 ## 8.2 Alex <a name="Alex"></a><br>
 ### Vorwissen
-Im Modul 126 hatten wir schon mit IOT-Geräten zu tun, somit hatte ich schon eine Idee um was sich es bei diesem Modul handelt. Aber im M126 hatten wir nur mit dem Raspberry 3 gearbeitet und nicht mit IOT-Kits. Aber der Vorteilt ist das wir auch in diesem Modul eine Raspberry brauchen als VPN und als Gateway.
+Im Modul 126 hatten wir schon mit IOT-Geräten zu tun, somit hatte ich schon eine Idee um was sich es bei diesem Modul handelt. Aber im M126 hatten wir nur mit dem Raspberry 3 gearbeitet und nicht mit IOT-Kits. Aber der Vorteilt ist das wir auch in diesem Modul eine Raspberry brauchen als VPN und auch als Gateway.
 
 ### 06.01.2021
 Ich musste den VPN einrichten dafür habe ich den Openvpn auf dem Raspberry installiert und konfiguriert.
 Siehe 6.2.1 [VPN](#Gateway)<br>
-Wichtige Befehle die ich neu gelernt habe (nach der Installation):
-```pivpn -a``` Erstellt ein neues VPN Profil
-```pivpn -c``` Zeigt die aktuellen Verbindungen
+Wichtige Befehle die ich neu gelernt habe (nach der Installation):<br>
+```pivpn -a```  Erstellt ein neues VPN Profil<br>
+```pivpn -c```  Zeigt die aktuellen Verbindungen<br>
 
-Nach der Installation und dem Testen des VPN habe ich auf dem Raspberry auch noch den MQTT Broker installiert und Konfiguriert...
+Nachdem die Installation abgeschlossen war konnte ich den VPN mit meinen 5G-Netz testen. Also richtete ich den VPN auf dem Handy ein und deaktivierte das WLAN. Um sicher zugehen, das ich wirklich in meinem Netz war rufte ich im Browser 192.168.1.1 auf und sah das Web-GUI des Routers.
 
 ### 20.01.2021
 Heute musste ich im <a href="https://ide.mbed.com/compiler"> Compiler</a> meine Netzwerkeinstellungen einrichten also die SSID anpassen, wie auch das Passwort und  auch die MQTT Einstellungen.
@@ -280,8 +278,7 @@ Als Hostname musste ich statt den Namen die IP-Adresse des Brokers angeben damit
 Um den Traffic bzw. die Information des IOT-Kit auf dem Raspi sehen kann muss man folgenden Befehl eingeben<br>
 ```mosquitto_sub -h 192.168.1.10 -t iotkit/#```
 <br>
-
-![Raspi](https://github.com/Modul-242/master/LB3/img/auslesen_von_informationen_raspi.png?raw=true)
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/auslesen_von_informationen_raspi.png" alt="Raspi">
 
 ## 8.3 Even <a name="Even"></a><br>
 ### Vorwissen:
