@@ -40,8 +40,8 @@ char* topicBUTTON = "iotkit/button";
 char* topicENCODER = "iotkit/encoder";
 char* topicRFID = "iotkit/rfid";
 // MQTT Brocker
-char* hostname = "192.168.1.10";
-int port = 1883;
+char* hostname = "0.tcp.ngrok.io";
+int port = 10652;
 // MQTT Message
 MQTT::Message message;
 // I/O Buffer
@@ -223,4 +223,3 @@ int main()
         wait    ( 2.0f );
     }
 }
-
