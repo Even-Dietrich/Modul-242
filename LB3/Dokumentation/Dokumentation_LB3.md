@@ -94,7 +94,6 @@ Folgende Geräte können MQTT verwenden:
 
 Wie funktioniert MQTT?<br>
 Die Kommunikation erfolgt über eine Publish-Subscribe-Kommunikation. Die Kommunikation besteht dabei immer aus zwei Teilnehmer, den Broker und den Clients. Dabei hat der Client die Aufgabe die Kommunikation mit den Nachrichten publish und subscriben zu gewährleisten. Der Broker ist dazu da, um die Nachrichten zu verwalten und zu verteilen. Die ganzen Nachrichten funktionieren über sogenannte Topics. 
-
 ![MQTT](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/MQTT.png)
 
 MQTT Topics<br>
