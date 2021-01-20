@@ -179,6 +179,20 @@ http://10.1.31.3:1880/
 ## 8.1 Adam <a name="Adam"></a><br>
 
 ## 8.2 Alex <a name="Alex"></a><br>
+### Vorwissen
+Im Modul 126 hatten wir schon mit IOT-Geräten zu tun, somit hatte ich schon eine Idee um was sich es bei diesem Modul handelt. Aber im M126 hatten wir nur mit dem Raspberry 3 gearbeitet und nicht mit IOT-Kits. Aber der Vorteilt ist das wir auch in diesem Modul eine Raspberry brauchen als VPN und als Gateway.
+
+### 06.01.2021
+Ich musste den VPN einrichten dafür habe ich den Openvpn auf dem Raspberry installiert und konfiguriert.
+Siehe 6.2.1 [VPN](#Gateway)<br>
+Wichtige Befehle die ich neu gelernt habe (nach der Installation):
+```pivpn -add
+```
+Nach der Installation und dem Testen des VPN habe ich auf dem Raspberry auch noch den MQTT Broker installiert und Konfiguriert...
+
+### 20.01.2021
+Heute musste ich im <href="https://ide.mbed.com/compiler">Compiler</href> meine Netzwerkeinstellungen einrichten also die SSID anpassen, wie auch das Passwort und jetzt auch die MQTT Einstellungen.
+...
 
 ## 8.3 Even <a name="Even"></a><br>
 ### Vorwissen:
