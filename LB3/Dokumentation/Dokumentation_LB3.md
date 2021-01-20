@@ -17,6 +17,7 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 5 [Konfiguration/Installation](#Konfiguration)<br>
 &nbsp;5.1 [IoKit](#IoKit)<br>
 &nbsp;5.2 [Gateway](#Gateway)<br>
+&nbsp;5.2.1 [VPN](#Gateway)<br>
 &nbsp;5.3 [Cloud](#Cloud)<br>
 6 [Testprotokolle](#Testprotokolle)<br>
 7 [Persönlicher Wissensstand und Reflexion](#Wissensstand)<br>
@@ -68,7 +69,7 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 # 2 Unsere Idee: <a name="Idee"></a>
 Unser System besteht aus folgenden Teile:
 - IoTKit
-- Raspberry Pi,,Gateway/MQTT Broker
+- Raspberry Pi,Gateway/MQTT Broker
 - Cloud/Note-Red
 # 3 Arbeitsaufteilung: <a name="Arbeitsaufteilung"></a> 
 Wir arbeiten alle gemeinsamm an der Dokumentation und individuell arbeiten wir an folgenden Bestandteile:
@@ -85,6 +86,7 @@ Wir arbeiten alle gemeinsamm an der Dokumentation und individuell arbeiten wir a
 # 5 Konfiguration/Installation: <a name="Konfiguration"></a>
 ## 5.1 IoKit Konfiguration: <a name="IoKit"></a>
 ## 5.2 Gateway/ MQTT Broker: <a name="Gateway"></a>
+### 5.2.1 VPN: <a name="VPN"></a>
 ## 5.3 Cloud: <a name="Cloud"></a>
 
 ## 6 Testprotokolle: <a name="Testprotokolle"></a><br>
