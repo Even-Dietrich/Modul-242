@@ -14,7 +14,7 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 3 [Unsere Arbeitsaufteilung](#Arbeitsaufteilung)<br>
 4 [Dokumenation](#Dokumenation)<br>
 &nbsp;4.1 [MQTT (Message Queue Telemetry Transport)](#MQTT)<br>
-&nbsp;4.2 [Mosquitto)](#Mosquitto)<br>
+&nbsp;4.2 [Mosquitto](#Mosquitto)<br>
 5 [Unsere Lösung](#Lösung)<br>
 &nbsp;5.1 [Netzwerkplan](#Netzwerkplan)<br>
 6 [Konfiguration/Installation](#Konfiguration)<br>
@@ -178,7 +178,19 @@ http://10.1.31.3:1880/
 ## 8.2 Alex <a name="Alex"></a><br>
 
 ## 8.3 Even <a name="Even"></a><br>
+### Vorwissen:
+Wir hatten in einem Modul schon einmal mit IoT-Geräte zu tun. Somit war mir der Begriff schon bekannt und ich konnte mir schon mal ein Bild vom Modul 242 machen. 
+Ich hatte aber noch nie etwas mit den IoTKits zu tun und wusste nicht wie diese funktionieren. Somit werde ich mir dieses Wissen in diesem Modul noch aneignet müssen. 
+### 06.01.21
+Ich habe mich heute vor allem mit dem Mbed Compiler beschäfftigt. Meine Ziel war es das Gerät über mein privates WLAN ins Internet zu bekommen und das der MQTTPbulish soweit funktioniert, damit ich ein File habe welches ich nur noch einspielen muss damit es funktioniert. Ich lernte das Protokoll MQTT kennen und wie man ein IoKit ans Internet bringen kann. 
+Was habe ich heute neu benhutzt: 
+| File | Änderungen |
+|--------|------------|
+| main.cpp; |  // MQTT Brocker,  char* hostname = "URL des MQTT-Broker";|
+| mbed_app.json; |  wifi-ssid : Value anpassen zu SSID vom Privaten WLAN |
+| mbed_app.json; |  wifi-password : Value anpassen zu Passwort vom Privaten WLAN |
 
+### 20.01.21
 ## 8.4 Jason <a name="Jason"></a><br>
 ### Vorwissen:
 Bei IoT-Geräten habe ich noch praktisch kein Vorwissen und werde mir alles in den nächsten 3-4 Wochen aneigenen und dokumentieren. 
