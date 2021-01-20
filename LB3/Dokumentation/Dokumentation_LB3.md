@@ -105,8 +105,11 @@ sudo raspi-config <br>
 ```
 curl -L https://install.pivpn.io | bash <br>
 ```
--openssh wählen
-![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/chooseVPN.png)
+-openssh wählen<br>
+
+![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/chooseVPN.png)<br>
+
+
 ## 5.3 Cloud: <a name="Cloud"></a>
 
 ## 6 Testprotokolle: <a name="Testprotokolle"></a><br>
