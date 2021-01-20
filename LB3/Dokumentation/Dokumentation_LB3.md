@@ -89,16 +89,16 @@ Wir arbeiten alle gemeinsamm an der Dokumentation und individuell arbeiten wir a
 ### 5.2.1 VPN: <a name="VPN"></a>
 Konfiguration des VPN auf dem Raspberry Pi.
 
-- Raspi updaten:
+- Raspi updaten: <br>
 sudo apt-get update <br>
 sudo apt-get upgrade <br>
-- Raspi konfigurieren
-sudo raspi-config<br>
-- Hostnamen und Netzwerk anpassen
-- PiVPN installieren<br>
+- Raspi konfigurieren <br>
+sudo raspi-config <br>
+- Hostnamen und Netzwerk anpassen <br>
+- PiVPN installieren <br>
 curl -L https://install.pivpn.io | bash <br>
-
-![MC-Connecten](https://github.com/Even-Dietrich/Modul300/blob/master/LB3/img/MC-Connecten.png)
+-openssh wählen
+![MC-Connecten](https://github.com/Even-Dietrich/Modul-242/LB3/img/chooseVPN.png) <br>
 ## 5.3 Cloud: <a name="Cloud"></a>
 
 ## 6 Testprotokolle: <a name="Testprotokolle"></a><br>
