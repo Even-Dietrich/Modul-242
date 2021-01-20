@@ -190,7 +190,10 @@ Sudo unzip ngrok-stable-linux-386.zip
 Sudo /.ngrok authtoken PRIVATETOKEN-KOPIEREN
 ```
 - /.ngrok tcp 1883
+![ngroktoken](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/NgrokToken.png)
+
 - Im Compiler folgendes abändern
+![ngrokcompiler](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/ngrokcompiler.png)
 
 ### 6.2.4 VPN: <a name="VPN"></a>
 Konfiguration des VPN auf dem Raspberry Pi.
@@ -212,7 +215,7 @@ sudo raspi-config <br>
 curl -L https://install.pivpn.io | bash <br>
 ```
 - openssh wählen<br>
-![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/chooseVPN.png)<br>
+![chooseVPN](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/chooseVPN.png) <br>
 - Portwählen (wir nehmen Standart)<br>
 ![port](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/Port.png)<br>
 - DNS Server wählen<br>
