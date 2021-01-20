@@ -191,8 +191,15 @@ Wichtige Befehle die ich neu gelernt habe (nach der Installation):
 Nach der Installation und dem Testen des VPN habe ich auf dem Raspberry auch noch den MQTT Broker installiert und Konfiguriert...
 
 ### 20.01.2021
-Heute musste ich im <href="https://ide.mbed.com/compiler">Compiler</href> meine Netzwerkeinstellungen einrichten also die SSID anpassen, wie auch das Passwort und jetzt auch die MQTT Einstellungen.
-...
+Heute musste ich im <a href="https://ide.mbed.com/compiler"> Compiler</a> meine Netzwerkeinstellungen einrichten also die SSID anpassen, wie auch das Passwort und  auch die MQTT Einstellungen.
+
+Als Hostname musste ich statt den Namen die IP-Adresse des Brokers angeben damit alles funktioniert.
+Um den Traffic bzw. die Information des IOT-Kit auf dem Raspi sehen kann muss man folgenden Befehl eingeben<br>
+```mosquitto_sub -h 192.168.1.10 -t iotkit/#```
+<br>
+
+![Raspi](https://github.com/Even-Dietrich/Modul-242/blob/master/LB3/img/auslesen_von_informationen_raspi.png)
+
 
 ## 8.3 Even <a name="Even"></a><br>
 ### Vorwissen:
