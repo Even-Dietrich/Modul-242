@@ -183,7 +183,8 @@ Wir hatten in einem Modul schon einmal mit IoT-Geräte zu tun. Somit war mir der
 Ich hatte aber noch nie etwas mit den IoTKits zu tun und wusste nicht wie diese funktionieren. Somit werde ich mir dieses Wissen in diesem Modul noch aneignet müssen. 
 ### 06.01.21
 Ich habe mich heute vor allem mit dem Mbed Compiler beschäfftigt. Meine Ziel war es das Gerät über mein privates WLAN ins Internet zu bekommen und das der MQTTPbulish soweit funktioniert, damit ich ein File habe welches ich nur noch einspielen muss damit es funktioniert. Ich lernte das Protokoll MQTT kennen und wie man ein IoKit ans Internet bringen kann. 
-Was habe ich heute neu benhutzt: 
+Was habe ich heute neu benutzt: 
+https://ide.mbed.com/compiler
 | File | Änderungen |
 |--------|------------|
 | main.cpp; |  // MQTT Brocker,  char* hostname = "URL des MQTT-Broker";|
@@ -191,6 +192,9 @@ Was habe ich heute neu benhutzt:
 | mbed_app.json; |  wifi-password : Value anpassen zu Passwort vom Privaten WLAN |
 
 ### 20.01.21
+Ich lernte heute mehr über das Protokoll MQQT und was für ein nutzten die Topics dabei haben. Was genaue Mosquitto macht wusste ich vorher auch nicht wurde mir aber heute klar und weiss nun genau was für eine Aufgabe es hat. 
+Dazu schrieb ich die Dokumentaion und setzte mich somit mit diesem Thema auseinander. 
+
 ## 8.4 Jason <a name="Jason"></a><br>
 ### Vorwissen:
 Bei IoT-Geräten habe ich noch praktisch kein Vorwissen und werde mir alles in den nächsten 3-4 Wochen aneigenen und dokumentieren. 
