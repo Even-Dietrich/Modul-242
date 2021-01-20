@@ -149,6 +149,9 @@ http://10.1.31.3:1880/
 
 ## 7.4 Jason <a name="Jason"></a><br>
 ### Vorwissen:
-Bei IoT-Geräten habe ich noch praktisch kein Vorwissen und werde mir alles in den nächsten 3-4 Wochen aneigenen und dokumentieren.
+Bei IoT-Geräten habe ich noch praktisch kein Vorwissen und werde mir alles in den nächsten 3-4 Wochen aneigenen und dokumentieren. 
 ### 06.01.21
+Ich habe mich mit der Materie auseinandergesetzt und einwenig mit dem IoT-Board herum experimentiert. Zusätzlich habe ich mich an der TBZ-Cloud angemeldet und mich mit meiner VM verbunden. Auf der VM konnte ich ganz einfach einen Docker Befehl absetzten und die Cloud-Lösung ist bereits fertig.
+### 20.01.21
+Heute habe ich mich an die Dokumentation gemacht und zu node-red etwas mehr erfahren. Weiter war ich zur Unterstützung für meine Kollegen da.
 
