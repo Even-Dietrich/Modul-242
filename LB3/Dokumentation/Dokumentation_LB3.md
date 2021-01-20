@@ -141,7 +141,14 @@ http://10.1.31.3:1880/
 ## 6 Testprotokolle: <a name="Testprotokolle"></a><br>
 
 # 7 Persönlicher Wissensstand und Reflexion: <a name="Wissensstand"></a><br>
-## 7.1 Adam: <a name="Adam"></a><br>
-## 7.2 Alex: <a name="Alex"></a><br>
-## 7.3 Even: <a name="Even"></a><br>
-## 7.4 Jason: <a name="Jason"></a><br>
+## 7.1 Adam <a name="Adam"></a><br>
+
+## 7.2 Alex <a name="Alex"></a><br>
+
+## 7.3 Even <a name="Even"></a><br>
+
+## 7.4 Jason <a name="Jason"></a><br>
+### Vorwissen:
+Bei IoT-Geräten habe ich noch praktisch kein Vorwissen und werde mir alles in den nächsten 3-4 Wochen aneigenen und dokumentieren.
+### 06.01.21
+
