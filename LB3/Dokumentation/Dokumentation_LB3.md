@@ -121,7 +121,8 @@ Durch die einfach Installation und die gute Dokumentation wurde Mosquitto zu ein
 # 6 Konfiguration/Installation: <a name="Konfiguration"></a>
 ## 6.1 IoKit Konfiguration: <a name="IoKit"></a>
 - IoKit an Computer anschliessen 
-- mbed Compiler öffnen <a href="https://ide.mbed.com/compiler">TS3 Client, </a> 
+- mbed Compiler öffnen <a href="https://ide.mbed.com/compiler">mbed Compiler, </a> 
+- Import <a href="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/Dokumentation/files/MQTTPublish.K64F.bin">MQTTPublish.K64F.bin, </a> 
 
 ## 6.2 Gateway/ MQTT Broker: <a name="Gateway"></a>
 ### 6.2.1 VPN: <a name="VPN"></a>
