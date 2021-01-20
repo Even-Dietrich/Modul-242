@@ -12,8 +12,9 @@ Unsere Dokumentation zur Leistungsbeurteilung 3
 &nbsp;1.6 [K6: Zusätzliche Bewertungspunkte](#K6)<br>
 2 [Unsere Idee](#Idee)<br>
 3 [Unsere Arbeitsaufteilung](#Arbeitsaufteilung)<br>
-4 [Dokumenation Protokolle](#DokumenationProtokoll)<br>
+4 [Dokumenation](#Dokumenation)<br>
 &nbsp;4.1 [MQTT (Message Queue Telemetry Transport)](#MQTT)<br>
+&nbsp;4.2 [Mosquitto)](#Mosquitto)<br>
 5 [Unsere Lösung](#Lösung)<br>
 &nbsp;5.1 [Netzwerkplan](#Netzwerkplan)<br>
 6 [Konfiguration/Installation](#Konfiguration)<br>
@@ -79,7 +80,7 @@ Wir arbeiten alle gemeinsamm an der Dokumentation und individuell arbeiten wir a
 - Adam, IoKit
 - Alex, Gateway, MQTT Broker
 - Jason, Cloud, Note-Red
-# 4 Dokumenation Protokolle: <a name="DokumenationProtokoll"></a>
+# 4 Dokumenation: <a name="Dokumenation"></a>
 ## 4.1 MQTT (Message Queue Telemetry Transport): <a name="MQTT"></a>
 
 Bei MQTT handelt es sich um ein Nachrichten Protokoll, das im Bereich der Machine to Machine Kommunikation genutzt wird. Dazu gehört vor allem das übertragen von Messdaten in Form von Nachrichten auch bei hoher Verzögerung oder bei einer niedrigen Bandbreite. Dazu verwendet das Protokoll die Ports 1883 und 8883 und kann über das TLS-Protokoll verschlüsselt werden.
@@ -102,6 +103,12 @@ Vorteile von MQTT:
 - Sensor und Endgerät müssen sich nicht kennen. Keine IP-Adresse oder MAC-Adresse wird benötigt. 
 - Publish und Subscribe sind unabhängig voneinander. Können separat ausgeführt werden. 
 -	Asynchrone ausführen, Funktionalität der Computer wird somit nicht gestört.
+## 4.2 Mosquitto: <a name="Mosquitto"></a>
+
+Bei Mosquitto handelt es sich um ein Open Source-Nachrichtenbroker, dieser implementiert die MQTT Protokolle 5.0, 3.1.1 und 3.1.
+Mosquitto ist simpel aufgebaut und eignet sich für alle Geräte, vom Server bis zum Singel-Board-Computer. 
+
+Durch die einfach Installation und die gute Dokumentation wurde Mosquitto zu einem sehr beliebten MQTT Broker. Dieser Broker kann wie alle Broker als Zustands-Datenbank verwendet werden, da die Daten der Kommunikationspartner behalten werden und so vom MQTT Brokere abgefragt werden kann. Mosquitto funktioniert mit dem Publisch/Subscribe Modells. Somiot eigenent sich dieser Broker sehr gut für IoTs (Internet of Things) Nachrichten. Dabei kommt es nicht darauf an, ob es sich um eine einfachen Sensore oder ein Mobiltelefon handelt. 
 
 # 5 Unsere Lösung: <a name="Lösung"></a>
 
