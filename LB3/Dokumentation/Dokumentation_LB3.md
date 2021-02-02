@@ -254,6 +254,8 @@ Nachdem Node-Red läuft kann man beginnen mit den Workflows. Für die LB3 haben 
 
 <img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/workflows.png" alt="workflows">
 
+Der erste Workflow mit dem Encoder sendet eine Email sobald der Wert welcher vom Encoder über 30 ist eine Email. Die unteren Workflows sind nur zum Debuggen. Diese zeigen einfach an ob und was sie empfangen.
+
 
 ## 7 Testprotokolle: <a name="Testprotokolle"></a><br>
 
