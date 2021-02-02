@@ -248,7 +248,11 @@ Danach konnte man auf das Webinterface zugreifen:
 
 http://10.1.31.3:1880/
 
-<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/node-red.png" alt="VPN Wählen">
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/node-red.png" alt="Node-Red">
+
+Nachdem Node-Red läuft kann man beginnen mit den Workflows. Für die LB3 haben wir folgende Workflows erstellt:
+
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/workflows.png" alt="workflows">
 
 
 ## 7 Testprotokolle: <a name="Testprotokolle"></a><br>
@@ -314,4 +318,5 @@ Bei IoT-Geräten habe ich noch praktisch kein Vorwissen und werde mir alles in d
 Ich habe mich mit der Materie auseinandergesetzt und einwenig mit dem IoT-Board herum experimentiert. Zusätzlich habe ich mich an der TBZ-Cloud angemeldet und mich mit meiner VM verbunden. Auf der VM konnte ich ganz einfach einen Docker Befehl absetzten und die Cloud-Lösung ist bereits fertig.
 ### 20.01.21
 Heute habe ich mich an die Dokumentation gemacht und zu node-red etwas mehr erfahren. Weiter war ich zur Unterstützung für meine Kollegen da.
-
+### 02.02.21
+Heute habe ich mich sehr mit Node-Red auseinander gesetzt und diverse Workflows erstellt und getestet. Ich kann nun einfache Workflows mit Node-red erstellen. Zusätzlich habe ich an der Dokumentation gearbeitet.
