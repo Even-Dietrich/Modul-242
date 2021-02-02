@@ -120,7 +120,6 @@ Durch die einfach Installation und die gute Dokumentation wurde Mosquitto zu ein
 ## 5.1 Netzwerkplan: <a name="Netzwerkplan"></a>
 <img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/Netzwerkplan.jpg" alt="Netzwerkplan">
 
-
 # 6 Konfiguration/Installation: <a name="Konfiguration"></a>
 ## 6.1 IoKit Konfiguration: <a name="IoKit"></a>
 - IoKit an Computer anschliessen 
