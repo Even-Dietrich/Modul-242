@@ -256,11 +256,16 @@ http://10.1.31.3:1880/
 # 8 Persönlicher Wissensstand und Reflexion: <a name="Wissensstand"></a><br>
 ## 8.1 Adam <a name="Adam"></a><br>
 ### Vorwissen
-IoT war bei mir bis jetzt noch nicht so richtig im Vordergrund. Da IoT immer mehr genutzt wird ist es sicherlich nicht falsch sich mal darüber zu informieren. Ich brauche IoT im alltag Zuhause, mit unserem Licht welches über eine App gesteuert wird.
+IoT war bei mir bis jetzt noch nicht so richtig im Vordergrund. Da IoT immer mehr genutzt wird ist es sicherlich nicht falsch sich mal darüber zu informieren. Ich brauche IoT im alltag Zuhause, mit unserem Licht welches über eine App gesteuert wird. Ich freue mich auf das Modul
 ### Reflexion
 Das Modul hat mir sehr spass gemacht. Ich konnte viel über IoT kennenlernen und konfigurieren. Die Anbindung ins Azure hat nach einigen schwierigkeiten funktioniert. Das Endergebniss fand ich sehr cool und hat mich mit Stolz erfühlt. Meine GitHub Skills konnte ich auch erweitern.
 
 Das arbeiten im Teams hat sehr gut funktioniert. Wir haben die Aufgaben fair verteilt.
+
+### Was habe ich gelernt
+- MBED Compiler
+- MQQ
+- MQTTPbulish
 
 ## 8.2 Alex <a name="Alex"></a><br>
 ### Vorwissen
