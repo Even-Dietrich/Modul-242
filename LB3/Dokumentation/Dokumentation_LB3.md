@@ -97,7 +97,7 @@ Folgende Geräte können MQTT verwenden:
 
 Wie funktioniert MQTT?<br>
 Die Kommunikation erfolgt über eine Publish-Subscribe-Kommunikation. Die Kommunikation besteht dabei immer aus zwei Teilnehmer, den Broker und den Clients. Dabei hat der Client die Aufgabe die Kommunikation mit den Nachrichten publish und subscriben zu gewährleisten. Der Broker ist dazu da, um die Nachrichten zu verwalten und zu verteilen. Die ganzen Nachrichten funktionieren über sogenannte Topics. 
-<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/MQTT.png" alt="MQTT">
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/MQTT.png" alt="MQTT"><br>
 MQTT Topics<br>
 Ein Topic ist ein Stringe, der eine Art Betreff der jeweiligen Nachricht darstellt. Diese Topics müssen danach vom Client abonniert werden damit dieser die Messdaten sehen kann. Sollte man die Messdaten nicht mehr gebrauchen kann man ganz einfach das Topic wieder deabonnieren und schon sieht man die Daten nicht mehr. 
 
