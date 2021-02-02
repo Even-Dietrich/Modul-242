@@ -255,6 +255,8 @@ http://10.1.31.3:1880/
 
 # 8 Persönlicher Wissensstand und Reflexion: <a name="Wissensstand"></a><br>
 ## 8.1 Adam <a name="Adam"></a><br>
+### Vorwissen
+IoT war bei mir bis jetzt noch nicht wirklich ein begriff mit dem ich viel zu tun hatte. Jedoch bin ich immer wieder Offen für neues, da IoT sowieso etwas ist was wir in zukunft viel brauchen (oder schon brauchen). Freue ich mich eigentlich auf das Modul.
 
 ## 8.2 Alex <a name="Alex"></a><br>
 ### Vorwissen
