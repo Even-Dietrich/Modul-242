@@ -258,7 +258,7 @@ Der erste Workflow mit dem Encoder sendet eine Email sobald der Wert welcher vom
 
 
 ## 7 Testprotokolle: <a name="Testprotokolle"></a><br>
-<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/Testfall.png" alt="Testfall"><br>
+<img src="https://github.com/Even-Dietrich/Modul-242/blob/main/LB3/img/Testfall.PNG" alt="Testfall"><br>
 
 # 8 Persönlicher Wissensstand und Reflexion: <a name="Wissensstand"></a><br>
 ## 8.1 Adam <a name="Adam"></a><br>
